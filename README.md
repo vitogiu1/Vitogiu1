@@ -30,7 +30,7 @@ Desenvolvendo, aprendendo e dando meu melhor.
  <img src="https://img.shields.io/badge/typescript-blue.svg?&style=for-the-badge&logo=typescript&logoColor=white" height="25"/>
 </p> 
 
-## Estatistícas・⭐
+## ⭐ ・Estatistícas・⭐
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=vitogiu1&show_icons=true&theme=tokyonight&line_height=27" />
