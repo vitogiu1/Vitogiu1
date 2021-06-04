@@ -1,5 +1,11 @@
 ## 💭 Vitogiu1
 
+<p align="center">
+    <img src="https://discord.c99.nl/widget/theme-1/785653990553288804.png"/>
+</p> 
+
+---
+
 <img align="right" src="https://i.imgur.com/TFEuMBP.png" height="160px" />
 
  ・👦 Meu Nome é Vito Giuliano<br>
