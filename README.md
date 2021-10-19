@@ -37,6 +37,7 @@ Desenvolvendo, aprendendo e dando meu melhor.
  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" height="25"/>
  <img src="https://img.shields.io/badge/Csharp-00000F?style=for-the-badge&logo=csharp&logoColor=white" height="25"/>
   <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" height="25"/>
+  <img src="https://img.shields.io/badge/java-964b00?style=for-the-badge&logo=java&logoColor=white" height="25"/>
 </p> 
 
 ## ⭐ ・Estatistícas・⭐
