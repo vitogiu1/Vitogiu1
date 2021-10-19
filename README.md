@@ -34,6 +34,9 @@ Desenvolvendo, aprendendo e dando meu melhor.
 <img src="https://img.shields.io/badge/React-blue.svg?style=for-the-badge&logo=react&logoColor=white" height="25" />
  <img src="https://img.shields.io/badge/git-%23F7DF1E.svg?&style=for-the-badge&logo=git&logoColor=black" height="25"/>
  <img src="https://img.shields.io/badge/typescript-blue.svg?&style=for-the-badge&logo=typescript&logoColor=white" height="25"/>
+ <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" height="25"/>
+ <img src="https://img.shields.io/badge/Csharp-00000F?style=for-the-badge&logo=csharp&logoColor=white" height="25"/>
+  <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" height="25"/>
 </p> 
 
 ## ⭐ ・Estatistícas・⭐
