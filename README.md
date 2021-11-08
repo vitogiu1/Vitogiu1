@@ -9,8 +9,6 @@
 <img align="right" src="https://i.imgur.com/TFEuMBP.png" height="160px" />
 
  ・👦 Meu Nome é Vito Giuliano<br>
- ・👁‍🗨 Tenho 15 anos<br>
- ・📅 Nasci dia 04 de outubro de 2005.<br>
  ・💻 Sou Desenvolvedor back-end tentando me tornar full-stack<br>
  ・🤖 Desenvolvo bots ao discord nos tempos livres.
   
