@@ -6,7 +6,7 @@
 
 ---
 
-<img align="right" src="https://i.imgur.com/TFEuMBP.png" height="160px" />
+<img align="right" src="https://www.faladev.com/assets/img/logo.svg" height="160px" />
 
  ・👦 Meu Nome é Vito Giuliano<br>
  ・💻 Sou Desenvolvedor back-end tentando me tornar full-stack<br>
