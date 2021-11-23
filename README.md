@@ -30,7 +30,7 @@ Desenvolvendo, aprendendo e dando meu melhor.
  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" height="25"/>
 </p> 
 
---
+
 ## 🌀 Tecnologias & Ferramentas que estou aprendendo ainda
 <p align="center">  
   <img src="https://img.shields.io/badge/Csharp-00000F?style=for-the-badge&logo=csharp&logoColor=white" height="25"/>
