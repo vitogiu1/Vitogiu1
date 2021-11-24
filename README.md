@@ -43,6 +43,6 @@ Desenvolvendo, aprendendo e dando meu melhor.
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=vitogiu1&show_icons=true&theme=tokyonight&line_height=27" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitogiu1&hide=batchfile&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitogiu1&langs_count=8&layout=compact&theme=tokyonight" />
 </p>
 
