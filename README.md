@@ -1,4 +1,4 @@
-## 💭 Vitogiu1
+## 💭 Vitogiu
 
 <p align="center">
     <img src="https://discord.c99.nl/widget/theme-1/785653990553288804.png"/>
@@ -8,15 +8,13 @@
 
 <img align="right" src="https://www.faladev.com/assets/img/logo.svg" height="160px" />
 
- ・👦 Meu Nome é Vito Giuliano<br>
- ・💻 Sou Desenvolvedor back-end<br>
-  
-Desenvolvendo E aprendendo.
+ ・👦 I'am Vito Giuliano<br>
+ ・💻 I'm Developer **Back-End**<br>
 
 <a href="https://discord.gg/MZqJc3KNcC"><img src="https://img.shields.io/discord/717378706976276522?style=flat&labelColor=7289da&logo=discord&logoColor=white" alt="Discord server" /></a> 
-<a href="https://discord.com/users/785653990553288804"><img src="https://img.shields.io/badge/-@Vitogiu1%230001-4169E1?style=flat&labelColor=7289da&logo=discord&logoColor=white" alt="Minha Conta" /></a>
+<a href="https://discord.com/users/785653990553288804"><img src="https://img.shields.io/badge/-@Vitogiu%231418-4169E1?style=flat&labelColor=7289da&logo=discord&logoColor=white" alt="Minha Conta" /></a>
 
-## 🌀 Tecnologias e ferramentas
+## 🌀 Technologies & tools
 
 <p align="center">
 <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black" height="25"/>
@@ -30,7 +28,7 @@ Desenvolvendo E aprendendo.
 </p> 
 
 
-## 🌀 Tecnologias & Ferramentas que estou aprendendo ainda
+## 🌀 Technologies & tools in progress....
 <p align="center">  
   <img src="https://img.shields.io/badge/Csharp-00000F?style=for-the-badge&logo=csharp&logoColor=white" height="25"/>
   <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" height="25"/>
@@ -38,10 +36,22 @@ Desenvolvendo E aprendendo.
   <img src="https://img.shields.io/badge/C++-00000F?style=for-the-badge&logo=cplusplus&logoColor=3a369c" height="25"/> 
 </p>
 
-## ⭐ ・Estatistícas・⭐
+## ⭐ ・Github Stats・ ⭐
 
-<p align="center">
+<details>
+<summary>💕 ・languages and stats ・💕</summary>
+<br>
+<a href="https://github.com/vitogiu1" align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=vitogiu1&show_icons=true&theme=tokyonight&line_height=27" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitogiu1&langs_count=8&layout=compact&theme=tokyonight" />
-</p>
+</a>
+</details>
+
+<details>
+<summary>🔥 ・Github Streak・ 🔥</summary>
+    <br>
+    <a href="https://github.com/vitogiu1" align="center">
+    <img src ="https://github-readme-streak-stats.herokuapp.com/?user=vitogiu1&hide_border=false" />
+    </a>
+</details>
 
