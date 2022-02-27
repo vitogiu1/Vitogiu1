@@ -1,8 +1,11 @@
 ## 💭 Vitogiu
 
 <p align="center">
-    <img src="https://discord.c99.nl/widget/theme-1/785653990553288804.png"/>
+<a href="https://discord.com/users/785653990553288804" target="_blank">
+	<img width="50%" alt="Discord" src="https://lanyard.cnrad.dev/api/785653990553288804?bg=1f1f1f&borderRadius=5px">
+</a>
 </p> 
+
 
 ---
 
