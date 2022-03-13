@@ -12,7 +12,7 @@
 <img align="right" src="https://www.faladev.com/assets/img/logo.svg" height="160px" />
 
  ・👦 I'am Vito Giuliano<br>
- ・💻 I'm Developer **Back-End**<br>
+ ・💻 I'm **Full-Stack** Developer<br>
 
 <a href="https://discord.gg/MZqJc3KNcC"><img src="https://img.shields.io/discord/717378706976276522?style=flat&labelColor=7289da&logo=discord&logoColor=white" alt="Discord server" /></a> 
 <a href="https://discord.com/users/785653990553288804"><img src="https://img.shields.io/badge/-@Vitogiu%231418-4169E1?style=flat&labelColor=7289da&logo=discord&logoColor=white" alt="Minha Conta" /></a>
