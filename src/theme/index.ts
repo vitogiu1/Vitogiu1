@@ -25,6 +25,7 @@ export const globalStyles = css`
     body {
       background-color: #fff;
       color: #121212;
+      transition: all 0.3s ease 0s;
     }
   }
 
@@ -32,6 +33,7 @@ export const globalStyles = css`
     body {
       background-color: #121212;
       color: #fff;
+      transition: all 0.3s ease 0s;
     }
   }
 `;

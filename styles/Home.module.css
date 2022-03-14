@@ -155,6 +155,15 @@
     margin-top: 3rem;
   }
 
+  .span {
+    color: #bc3ee2;
+    transition: all 0.3s ease 0s;
+  }
+  .span:hover {
+    color: #9407be;
+    cursor: pointer;
+  }
+
   
   @media (max-width: 600px) {
     .grid {

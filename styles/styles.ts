@@ -40,13 +40,13 @@ export const SkillsContainer = styled.div`
   }
   [data-theme="dark"] &:hover {
     svg {
-      color: #dd99f194;
+      color: #bc3ee2;
       transform: scale(0.95);
     }
   }
   [data-theme="light"] &:hover {
     svg {
-      color: #ab00df96;
+      color: #9407be;
       transform: scale(0.95);
     }
   }
