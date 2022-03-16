@@ -20,7 +20,6 @@ export default function Home(props: NextPage) {
   })
   return (
     <div className={styles.container}>
-
       <main className={styles.main}>
         <Image src="https://github.com/vitogiu1.png" className={styles.logo} alt="logo" width={200} height={200} />
         <h3 className={styles.title}>
@@ -33,12 +32,12 @@ export default function Home(props: NextPage) {
         </h3>
 
         <p className={styles.description}>
-          {"i'am a"} {' '}
+          {"I'm a "} {' '}
           <span className={styles.span}>
             <Typewriter
-            words={['Simple developer in the world, looking to learn more.', 'Full-Stack Developer', 'Software Engineer']}         
+            words={['Simple developer in the world, looking to learn more', 'Full-Stack Developer', 'Software Engineer']}         
             cursor
-            typeSpeed={100}   
+            typeSpeed={70}   
             loop  
             />
           </span>
@@ -125,12 +124,16 @@ export default function Home(props: NextPage) {
       <br></br>
     <h1 className={styles.title}><span className={styles.span}>#</span>Tools</h1>
       <section>
-    <Link href="https://github.com/vitogiu1" passHref>
+    <a
+      href="https://github.com/vitogiu1"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
     <SkillsContainer data-aos="fade-up">
       <p>Github</p>
       <FaGithub />
     </SkillsContainer>
-    </Link>
+    </a>
 
     <SkillsContainer data-aos="fade-up">
       <p>Git</p>
@@ -149,10 +152,16 @@ export default function Home(props: NextPage) {
       <DiMongodb />
     </SkillsContainer>
 
+    <a
+      href="https://github.com/vitogiu1/dotfiles"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
     <SkillsContainer data-aos="fade-up">
       <p>Linux</p>
       <DiLinux />
     </SkillsContainer>
+    </a>
 
     <SkillsContainer data-aos="fade-up">
       <p>Vim / Neovim</p>

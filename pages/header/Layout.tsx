@@ -13,7 +13,8 @@ export default function Layout({children}: {children: React.ReactNode}) {
               <title>Vitogiu | Home</title>
               <meta name="description" content="My Portifolio 👋" />
               <meta name="theme-color" content="#dd99f194" />
-              <link rel="icon" href="favicon"/>
+              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              <link rel="icon" href="favicon.ico"/>
             </Head>
             <div className={Header.container}>
             <header className={Header.navbar}>
@@ -22,9 +23,7 @@ export default function Layout({children}: {children: React.ReactNode}) {
                 </Link>
                 <nav>
                     <ul className={Header.links}>
-                        <li><a href='#'>About</a></li>
                         <li><a href='mailto:me@vitogiu.me'>Contact</a></li>
-                        <li><a href='#'>Projects</a></li>
                     </ul>
                 </nav>
                 <ThemeUpdaterIcon />
