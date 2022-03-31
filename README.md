@@ -1,6 +1,11 @@
 ## 💭 Vitogiu
 
 <p align="center">
+<a href="https://github.com/vitogiu1">
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=45F7D3&center=true&vCenter=true&lines=Howdy!+I'm+Vito+Giuliano+%F0%9F%91%8B;I'm+Full-stack+Developer+%F0%9F%92%BB)](https://git.io/typing-svg)
+
+</a>
 <a href="https://discord.com/users/785653990553288804" target="_blank">
 	<img width="50%" alt="Discord" src="https://lanyard.cnrad.dev/api/785653990553288804?bg=1f1f1f&borderRadius=5px">
 </a>
