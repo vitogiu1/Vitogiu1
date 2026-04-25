@@ -19,6 +19,10 @@
   <a href="mailto:vitogiu1@outlook.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email de Contato" />
   </a>
+  
+  <a href="https://vitogiu1.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-0000ff?style=for-the-badge&logo=vercel&logoColor=white" alt="Meu Portfólio" />
+  </a>
 </p>
 
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=vitogiu1&utm_content=farm">
