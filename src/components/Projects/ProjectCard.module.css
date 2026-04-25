@@ -16,8 +16,8 @@
 
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 15px 35px rgba(188, 62, 226, 0.15);
-  border-color: rgba(188, 62, 226, 0.3);
+  box-shadow: 0 15px 35px var(--primary-glow-light);
+  border-color: var(--primary-glow-medium);
 }
 
 .imageWrapper {
@@ -111,7 +111,7 @@
 }
 
 .tag {
-  background: rgba(188, 62, 226, 0.1);
+  background: var(--primary-glow-light);
   color: var(--primary-color);
   padding: 0.3rem 0.8rem;
   border-radius: 20px;

@@ -3,8 +3,11 @@
   --background-end: #e2e8f0;
   --text-primary: #0f172a;
   --text-secondary: #475569;
-  --primary-color: #bc3ee2;
-  --secondary-color: #9407be;
+  --primary-color: #ef4444;
+  --secondary-color: #dc2626;
+  --primary-glow-light: rgba(239, 68, 68, 0.15);
+  --primary-glow-medium: rgba(239, 68, 68, 0.3);
+  --primary-glow-strong: rgba(239, 68, 68, 0.4);
 
   --glass-bg: rgba(255, 255, 255, 0.7);
   --glass-border: rgba(255, 255, 255, 0.5);
@@ -19,8 +22,11 @@
   --background-end: #020617;
   --text-primary: #f8fafc;
   --text-secondary: #94a3b8;
-  --primary-color: #bc3ee2;
-  --secondary-color: #9407be;
+  --primary-color: #ef4444;
+  --secondary-color: #dc2626;
+  --primary-glow-light: rgba(239, 68, 68, 0.15);
+  --primary-glow-medium: rgba(239, 68, 68, 0.3);
+  --primary-glow-strong: rgba(239, 68, 68, 0.4);
 
   --glass-bg: rgba(15, 23, 42, 0.7);
   --glass-border: rgba(255, 255, 255, 0.05);
@@ -28,6 +34,47 @@
 
   --scrollbar-thumb: rgba(255, 255, 255, 0.2);
   --scrollbar-thumb-hover: var(--primary-color);
+}
+
+/* Color Presets */
+[data-color="purple"] {
+  --primary-color: #bc3ee2;
+  --secondary-color: #9407be;
+  --primary-glow-light: rgba(188, 62, 226, 0.15);
+  --primary-glow-medium: rgba(188, 62, 226, 0.3);
+  --primary-glow-strong: rgba(188, 62, 226, 0.4);
+}
+
+[data-color="blue"] {
+  --primary-color: #3b82f6;
+  --secondary-color: #2563eb;
+  --primary-glow-light: rgba(59, 130, 246, 0.15);
+  --primary-glow-medium: rgba(59, 130, 246, 0.3);
+  --primary-glow-strong: rgba(59, 130, 246, 0.4);
+}
+
+[data-color="green"] {
+  --primary-color: #10b981;
+  --secondary-color: #059669;
+  --primary-glow-light: rgba(16, 185, 129, 0.15);
+  --primary-glow-medium: rgba(16, 185, 129, 0.3);
+  --primary-glow-strong: rgba(16, 185, 129, 0.4);
+}
+
+[data-color="red"] {
+  --primary-color: #ef4444;
+  --secondary-color: #dc2626;
+  --primary-glow-light: rgba(239, 68, 68, 0.15);
+  --primary-glow-medium: rgba(239, 68, 68, 0.3);
+  --primary-glow-strong: rgba(239, 68, 68, 0.4);
+}
+
+[data-color="orange"] {
+  --primary-color: #f97316;
+  --secondary-color: #ea580c;
+  --primary-glow-light: rgba(249, 115, 22, 0.15);
+  --primary-glow-medium: rgba(249, 115, 22, 0.3);
+  --primary-glow-strong: rgba(249, 115, 22, 0.4);
 }
 
 * {

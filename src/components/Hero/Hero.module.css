@@ -20,8 +20,12 @@
   margin-bottom: 2rem;
   border-radius: 50%;
   padding: 8px;
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-  box-shadow: 0 10px 25px rgba(188, 62, 226, 0.4);
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  box-shadow: 0 10px 25px var(--primary-glow-strong);
   animation: floating 6s ease-in-out infinite;
 }
 
@@ -100,7 +104,7 @@
 
 @media (max-width: 480px) {
   .heroContainer {
-    padding: 6rem 1rem 3rem; /* Extra top padding to clear fixed buttons */
+    padding: 6rem 1rem 3rem;
   }
   .nameTitle {
     font-size: 2rem;

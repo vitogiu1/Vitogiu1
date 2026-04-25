@@ -4,7 +4,9 @@ import { Inter } from 'next/font/google'
 import { ThemeProvider } from 'next-themes'
 import ThemeUpdater from '@/components/ThemeUpdater/ThemeUpdater'
 import LanguageSwitcher from '@/components/LanguageSwitcher/LanguageSwitcher'
+import ColorSwitcher from '@/components/ColorSwitcher/ColorSwitcher'
 import { LanguageProvider } from '@/context/LanguageContext'
+import { ColorProvider } from '@/context/ColorContext'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,11 +25,14 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="data-theme" defaultTheme="system" enableSystem>
           <LanguageProvider>
-            <LanguageSwitcher />
-            <ThemeUpdater />
-            <div className="layout-content">
-              {children}
-            </div>
+            <ColorProvider>
+              <LanguageSwitcher />
+              <ThemeUpdater />
+              <ColorSwitcher />
+              <div className="layout-content">
+                {children}
+              </div>
+            </ColorProvider>
           </LanguageProvider>
         </ThemeProvider>
       </body>

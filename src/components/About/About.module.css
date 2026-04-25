@@ -27,8 +27,8 @@
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(188, 62, 226, 0.1);
-  border-color: rgba(188, 62, 226, 0.3);
+  box-shadow: 0 15px 35px var(--primary-glow-light);
+  border-color: var(--primary-glow-medium);
 }
 
 .cardHeader {

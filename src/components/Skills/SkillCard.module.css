@@ -29,7 +29,7 @@
 .card:hover {
   transform: translateY(-8px) scale(1.02);
   border-color: var(--primary-color);
-  box-shadow: 0 15px 35px rgba(188, 62, 226, 0.15);
+  box-shadow: 0 15px 35px var(--primary-glow-light);
 }
 
 .iconWrapper {
