@@ -1,8 +1,13 @@
+"use client";
+
 import Image from 'next/image';
 import styles from './Footer.module.css';
 import { FaHeart } from 'react-icons/fa';
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function Footer() {
+  const { t } = useLanguage();
+
   return (
     <footer className={styles.footer}>
       <a
@@ -11,9 +16,9 @@ export default function Footer() {
         rel="noopener noreferrer"
         className={styles.link}
       >
-        <span>Made with</span>
+        <span>{t("footer.madeWith")}</span>
         <FaHeart className={styles.heart} />
-        <span>by Vito Giuliano</span>
+        <span>{t("footer.by")}</span>
         <Image 
           src="https://github.com/vitogiu1.png" 
           alt="Vito Giuliano Profile" 

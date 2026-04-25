@@ -180,3 +180,38 @@
     grid-column: span 12;
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 3rem 1rem;
+  }
+  .card {
+    padding: 1.5rem;
+  }
+  .codeSnippet {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  .icon {
+    font-size: 1.5rem;
+  }
+  .cardHeader h3 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 1.25rem;
+  }
+  .codeSnippet {
+    font-size: 0.85rem;
+  }
+  .macDots {
+    margin-right: 0.5rem;
+  }
+  .ideTab {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.8rem;
+  }
+}

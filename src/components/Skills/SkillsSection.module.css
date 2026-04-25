@@ -24,6 +24,9 @@
 }
 
 @media (max-width: 768px) {
+  .container {
+    padding: 3rem 1rem;
+  }
   .grid {
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     gap: 1.5rem;

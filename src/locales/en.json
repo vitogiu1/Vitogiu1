@@ -1,0 +1,111 @@
+{
+  "hero": {
+    "greeting": "Howdy 👋!",
+    "im": "I'm ",
+    "roles": [
+      "A Developer who loves to learn",
+      "Full-Stack Developer",
+      "Software Engineer",
+      "Low-Level Enthusiast"
+    ]
+  },
+  "about": {
+    "sectionTitle": "About Me",
+    "journeyTitle": "My Journey",
+    "journey1": "Hello! I'm Vito Giuliano, a Full Stack Developer and student of Software Engineering. My journey into the world of programming began in 2020, fueled by an insatiable curiosity to understand the inner workings of technology. Since then, I have cultivated extensive experience in building robust web applications, designing efficient database schemas, and architecting scalable APIs. My expertise spans the entire Full-Stack ecosystem, leveraging modern frameworks like React and Angular alongside back-end powerhouses like Node.js and Java Spring to deliver impactful digital solutions.",
+    "journey2": "Beyond high-level development, I am a dedicated Low-Level systems enthusiast. I thrive in the complexities of operating system development, x86 architecture, RISC-V architecture, and manual memory management. I am currently architecting ArzaOS, my own kernel in 64-bit long mode. My commitment to system internals is further demonstrated by my work on ArzaOS, where I built the entire kernel from scratch, including drivers for serial port and connections with multiple kernels.",
+    "journey3": "Currently a Software Engineering student at Inteli, I bridge the gap between high-level application design and low-level system performance. Whether I'm optimizing algorithms for computational complexity or managing hardware interrupts, my goal is to build systems that are as efficient as they are innovative.",
+    "educationTitle": "Education & Focus",
+    "educationList": [
+      {
+        "title": "Inteli (Instituto de Tecnologia e Liderança)",
+        "desc": "B.S. in Software Engineering — focusing on software architecture and agile development."
+      },
+      {
+        "title": "Low-Level Engineering",
+        "desc": "Architecting ArzaOS (x86/64-bit Kernel), and studying more about the low-level systems, from operating systems to hardware interactions."
+      },
+      {
+        "title": "Linux Internals & Tooling",
+        "desc": "Mastering the Linux toolchain through Linux From Scratch (LFS) and a custom Linux-based development environment."
+      },
+      {
+        "title": "Full-Stack Ecosystems",
+        "desc": "Developing scalable web applications and APIs using React, Angular, Node.js, and Java Spring Boot."
+      },
+      {
+        "title": "Data Structures & Complexity",
+        "desc": "In-depth study of sorting algorithms, computational complexity (Big O), and optimized memory structures."
+      }
+    ],
+    "ideTitle": "What's Vito's Stack?",
+    "ideMock": {
+      "developer": "Vito Giuliano",
+      "status": "Software Engineering Student @ Inteli",
+      "roles": ["Full-Stack Engineer", "Low-Level Enthusiast"],
+      "core_stack": {
+        "low_level": ["C", "C++", "Rust", "Assembly"],
+        "full_stack": ["React", "Angular", "Node.js", "Java Spring"]
+      },
+      "os_internals": {
+        "current_project": "ArzaOS (x86 to 64-bit Long Mode)",
+        "architecture_focus": "Monolithic Kernel (x86_64)",
+        "deep_dives": ["GDT/IDT", "Paging", "Manual Memory Management"]
+      },
+      "environment": {
+        "os": "Arch Linux",
+        "editor": "Neovim",
+        "terminal": "Zsh",
+        "side_quest": "Linux From Scratch (LFS)"
+      },
+      "mission": "Bridging the gap between high-level design and core system mechanics."
+    }
+  },
+  "skills": {
+    "languages": "Languages",
+    "frameworks": "Frameworks",
+    "tools": "Tools"
+  },
+  "projects": {
+    "sectionTitle": "Some Projects",
+    "subtitle": "A curated selection of my work, bridging the gap between high-level Software Engineering and core system mechanics.",
+    "list": [
+      {
+        "title": "ArzaOS / ArzaKernel",
+        "description": "A custom operating system kernel x86_64, developed from scratch. This project explores deep low-level mechanics, including GDT/IDT configurations, paging, and Monolithic Kernel architecture model.",
+        "tags": ["C", "Assembly", "Kernel Dev", "x86 Architecture"]
+      },
+      {
+        "title": "Jornada Cielo",
+        "description": "An educational RPG designed for business manager training. I focused on the software engineering architecture, developing complex backend systems for inventory management and progress tracking.",
+        "tags": ["Software Engineering", "System Architecture", "Academic"]
+      },
+      {
+        "title": "Edutech21 - Scheduler",
+        "description": "A specialized resource management system developed to schedule VR headset usage for the Edutech21 project. The platform facilitates the integration of Virtual Reality into Mathematics classes, ensuring organized and efficient access to immersive learning tools.",
+        "tags": [
+          "Software Engineering",
+          "System Architecture",
+          "Resource Management",
+          "Education Tech"
+        ]
+      },
+      {
+        "title": "LFS & Custom Environment",
+        "description": "A complete Linux environment built entirely from the ground up using Linux From Scratch (LFS 13.0) - Still in progress - Not public",
+        "tags": ["Arch Linux", "LFS", "Bash", "Neovim"]
+      }
+    ],
+    "sourceCode": "Source Code",
+    "visit": "Visit"
+  },
+  "contact": {
+    "title": "Let's build your next idea?",
+    "subtitle": "I am always open to discussing new project ideas, career opportunities, or simply having a chat about tech and systems engineering.",
+    "email": "Send me an E-mail"
+  },
+  "footer": {
+    "madeWith": "Made with",
+    "by": "by Vito Giuliano"
+  }
+}

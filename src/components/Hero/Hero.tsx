@@ -3,8 +3,11 @@
 import Image from "next/image";
 import { Typewriter } from "react-simple-typewriter";
 import styles from "./Hero.module.css";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function Hero() {
+  const { t, language } = useLanguage();
+
   return (
     <section className={styles.heroContainer}>
       <div className={styles.content}>
@@ -20,25 +23,22 @@ export default function Hero() {
           />
         </div>
 
-        <h1 className={styles.greeting}>Howdy 👋!</h1>
+        <h1 className={styles.greeting}>{t("hero.greeting")}</h1>
 
         <h2 className={styles.nameTitle}>
-          {"I'm "}
+          {t("hero.im")}
           <span className="highlight">
-            <Typewriter words={["Vito Giuliano"]} />
+            {/* Adding key={language} forces the Typewriter to remount and re-read the words array when the language changes */}
+            <Typewriter key={language} words={["Vito Giuliano"]} />
           </span>
         </h2>
 
         <p className={styles.description}>
-          {"I'm a "}
+          {t("hero.im")}
           <span className={styles.roles}>
             <Typewriter
-              words={[
-                "A Developer who loves to learn",
-                "Full-Stack Developer",
-                "Software Engineer",
-                "Low-Level Enthusiast",
-              ]}
+              key={language}
+              words={t("hero.roles")}
               cursor
               typeSpeed={70}
               deleteSpeed={50}

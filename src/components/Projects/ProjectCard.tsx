@@ -1,6 +1,9 @@
+"use client";
+
 import Image from "next/image";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import styles from "./ProjectCard.module.css";
+import { useLanguage } from "@/context/LanguageContext";
 
 interface ProjectCardProps {
   title: string;
@@ -19,6 +22,8 @@ export default function ProjectCard({
   repoUrl,
   liveUrl,
 }: ProjectCardProps) {
+  const { t } = useLanguage();
+
   return (
     <div className={styles.card}>
       <div className={styles.imageWrapper}>
@@ -39,7 +44,7 @@ export default function ProjectCard({
                 rel="noopener noreferrer"
                 className={styles.linkButton}
               >
-                <FaGithub /> Source Code
+                <FaGithub /> {t("projects.sourceCode")}
               </a>
             )}
             {liveUrl && (
@@ -49,7 +54,7 @@ export default function ProjectCard({
                 rel="noopener noreferrer"
                 className={styles.linkButton}
               >
-                <FaExternalLinkAlt /> Visit
+                <FaExternalLinkAlt /> {t("projects.visit")}
               </a>
             )}
           </div>

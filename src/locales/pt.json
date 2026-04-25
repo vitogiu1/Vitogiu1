@@ -1,0 +1,124 @@
+{
+  "hero": {
+    "greeting": "Olá 👋!",
+    "im": "Eu sou ",
+    "roles": [
+      "um Desenvolvedor que ama aprender",
+      "um Desenvolvedor Full-Stack",
+      "um Engenheiro de Software",
+      "um Entusiasta de Baixo Nível"
+    ]
+  },
+  "about": {
+    "sectionTitle": "Sobre Mim",
+    "journeyTitle": "Minha Jornada",
+    "journey1": "Olá! Sou o Vito Giuliano, Desenvolvedor Full Stack e estudante de Engenharia de Software. Minha jornada na programação começou em 2020, movida por uma curiosidade insaciável de entender o funcionamento interno da tecnologia. Desde então, cultivei ampla experiência construindo aplicações web robustas, projetando esquemas de banco de dados eficientes e arquitetando APIs escaláveis. Minha especialidade abrange todo o ecossistema Full-Stack, utilizando frameworks modernos como React e Angular junto com back-ends poderosos como Node.js e Java Spring para entregar soluções digitais impactantes.",
+    "journey2": "Além do desenvolvimento de alto nível, sou um dedicado entusiasta de sistemas de baixo nível (Low-Level). Eu prospero nas complexidades do desenvolvimento de sistemas operacionais, arquitetura x86, arquitetura RISC-V e gerenciamento manual de memória. Atualmente estou arquitetando o ArzaOS, meu próprio kernel em modo longo de 64 bits. Meu compromisso com os internos do sistema é ainda mais demonstrado pelo meu trabalho no ArzaOS, onde construí todo o kernel do zero, incluindo drivers para porta serial e conexões com múltiplos kernels.",
+    "journey3": "Atualmente estudante de Engenharia de Software no Inteli, eu crio a ponte entre o design de aplicações de alto nível e a performance de sistemas de baixo nível. Seja otimizando algoritmos para complexidade computacional ou gerenciando interrupções de hardware, meu objetivo é construir sistemas que sejam tão eficientes quanto inovadores.",
+    "educationTitle": "Educação e Foco",
+    "educationList": [
+      {
+        "title": "Inteli (Instituto de Tecnologia e Liderança)",
+        "desc": "Bacharelado em Engenharia de Software — foco em arquitetura de software e desenvolvimento ágil."
+      },
+      {
+        "title": "Engenharia de Baixo Nível",
+        "desc": "Arquitetando o ArzaOS (Kernel x86/64-bit), e estudando mais sobre sistemas de baixo nível, desde sistemas operacionais até interações de hardware."
+      },
+      {
+        "title": "Internos do Linux & Ferramentas",
+        "desc": "Dominando as ferramentas do Linux através do Linux From Scratch (LFS) e um ambiente de desenvolvimento Linux personalizado."
+      },
+      {
+        "title": "Ecossistemas Full-Stack",
+        "desc": "Desenvolvendo aplicações web e APIs escaláveis usando React, Angular, Node.js e Java Spring Boot."
+      },
+      {
+        "title": "Estruturas de Dados e Complexidade",
+        "desc": "Estudo aprofundado de algoritmos de ordenação, complexidade computacional (Big O) e estruturas de memória otimizadas."
+      }
+    ],
+    "ideTitle": "Qual a Stack do Vito?",
+    "ideMock": {
+      "developer": "Vito Giuliano",
+      "status": "Estudante de Engenharia de Software @ Inteli",
+      "roles": ["Engenheiro Full-Stack", "Entusiasta de Baixo Nível"],
+      "core_stack": {
+        "low_level": ["C", "C++", "Rust", "Assembly"],
+        "full_stack": ["React", "Angular", "Node.js", "Java Spring"]
+      },
+      "os_internals": {
+        "current_project": "ArzaOS (x86 para Modo Longo de 64-bit)",
+        "architecture_focus": "Kernel Monolítico (x86_64)",
+        "deep_dives": [
+          "GDT/IDT",
+          "Paginação",
+          "Gerenciamento Manual de Memória"
+        ]
+      },
+      "environment": {
+        "os": "Arch Linux",
+        "editor": "Neovim",
+        "terminal": "Zsh",
+        "side_quest": "Linux From Scratch (LFS)"
+      },
+      "mission": "Criando pontes entre design de alto nível e as mecânicas centrais do sistema."
+    }
+  },
+  "skills": {
+    "languages": "Linguagens",
+    "frameworks": "Frameworks",
+    "tools": "Ferramentas"
+  },
+  "projects": {
+    "sectionTitle": "Alguns Projetos",
+    "subtitle": "Uma seleção dos meus trabalhos, unindo a Engenharia de Software de alto nível às mecânicas base dos sistemas.",
+    "list": [
+      {
+        "title": "ArzaOS / ArzaKernel",
+        "description": "Um sistema operacional customizado (kernel x86_64), desenvolvido do zero. Este projeto explora profundamente mecânicas de baixo nível, incluindo configurações GDT/IDT, paginação e arquitetura de Kernel Monolítico.",
+        "tags": [
+          "C",
+          "Assembly",
+          "Desenvolvimento de Kernel",
+          "Arquitetura x86"
+        ]
+      },
+      {
+        "title": "Jornada Cielo",
+        "description": "Um RPG educacional projetado para treinamento de gestores de negócios. Foco na arquitetura de engenharia de software, desenvolvendo sistemas de backend complexos para gerenciamento de inventário e progresso.",
+        "tags": [
+          "Engenharia de Software",
+          "Arquitetura de Sistemas",
+          "Acadêmico"
+        ]
+      },
+      {
+        "title": "Edutech21 - Scheduler",
+        "description": "Um sistema especializado de gerenciamento de recursos desenvolvido para agendar o uso de headsets de RV no projeto Edutech21. A plataforma facilita a integração da Realidade Virtual nas aulas de Matemática.",
+        "tags": [
+          "Engenharia de Software",
+          "Arquitetura de Sistemas",
+          "Gerenciamento de Recursos",
+          "Tecnologia Educacional"
+        ]
+      },
+      {
+        "title": "LFS & Ambiente Customizado",
+        "description": "Um ambiente Linux completo construído totalmente do zero usando o Linux From Scratch (LFS 13.0) - Ainda em andamento - Não público",
+        "tags": ["Arch Linux", "LFS", "Bash", "Neovim"]
+      }
+    ],
+    "sourceCode": "Código Fonte",
+    "visit": "Visitar"
+  },
+  "contact": {
+    "title": "Vamos criar sua próxima ideia?",
+    "subtitle": "Estou sempre aberto para discutir novas ideias de projetos, oportunidades de carreira ou simplesmente bater um papo sobre tecnologia e engenharia de sistemas.",
+    "email": "Me mande um E-mail"
+  },
+  "footer": {
+    "madeWith": "Feito com",
+    "by": "por Vito Giuliano"
+  }
+}

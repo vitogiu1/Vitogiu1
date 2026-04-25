@@ -1,22 +1,25 @@
+"use client";
+
 import React from "react";
 import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
 import styles from "./ContactSection.module.css";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function ContactSection() {
+  const { t } = useLanguage();
+
   return (
     <section className={styles.container} id="contact">
       <div className={styles.contactBox}>
-        <h2 className={styles.title}>Let&apos;s build your next idea?</h2>
+        <h2 className={styles.title}>{t("contact.title")}</h2>
         <p className={styles.subtitle}>
-          I am always open to discussing new project ideas, career
-          opportunities, or simply having a chat about tech and systems
-          engineering.
+          {t("contact.subtitle")}
         </p>
 
         <div className={styles.links}>
           <a href="mailto:vitogiu1@outlook.com" className={styles.button}>
             <FaEnvelope className={styles.icon} />
-            <span>Send me an E-mail</span>
+            <span>{t("contact.email")}</span>
           </a>
 
           <a

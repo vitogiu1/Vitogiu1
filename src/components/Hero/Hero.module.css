@@ -97,3 +97,26 @@
     height: 144px;
   }
 }
+
+@media (max-width: 480px) {
+  .heroContainer {
+    padding: 6rem 1rem 3rem; /* Extra top padding to clear fixed buttons */
+  }
+  .nameTitle {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 1.1rem;
+  }
+  .greeting {
+    font-size: 1.5rem;
+  }
+  .imageWrapper {
+    width: 140px;
+    height: 140px;
+  }
+  .avatar {
+    width: 124px;
+    height: 124px;
+  }
+}

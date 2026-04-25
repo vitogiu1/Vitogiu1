@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import SkillCard from "./SkillCard";
 import styles from "./SkillsSection.module.css";
@@ -27,8 +29,11 @@ import {
 } from "react-icons/di";
 import { CgCPlusPlus } from "react-icons/cg";
 import { TbBrandCSharp } from "react-icons/tb";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function SkillsSection() {
+  const { t } = useLanguage();
+
   const languages = [
     { name: "HTML", icon: <FaHtml5 /> },
     { name: "CSS", icon: <FaCss3Alt /> },
@@ -69,7 +74,7 @@ export default function SkillsSection() {
     <section className={styles.container}>
       <div className={styles.sectionBlock}>
         <h2 className="section-title">
-          <span className="highlight">#</span> Languages
+          <span className="highlight">#</span> {t("skills.languages")}
         </h2>
         <div className={styles.grid}>
           {languages.map((skill) => (
@@ -82,7 +87,7 @@ export default function SkillsSection() {
 
       <div className={styles.sectionBlock}>
         <h2 className="section-title">
-          <span className="highlight">#</span> Frameworks
+          <span className="highlight">#</span> {t("skills.frameworks")}
         </h2>
         <div className={styles.grid}>
           {frameworks.map((skill) => (
@@ -95,7 +100,7 @@ export default function SkillsSection() {
 
       <div className={styles.sectionBlock}>
         <h2 className="section-title">
-          <span className="highlight">#</span> Tools
+          <span className="highlight">#</span> {t("skills.tools")}
         </h2>
         <div className={styles.grid}>
           {tools.map((skill) => (
