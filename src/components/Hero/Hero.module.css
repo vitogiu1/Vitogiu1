@@ -1,0 +1,99 @@
+.heroContainer {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 4rem 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  animation: fadeUp 1s ease-out forwards;
+}
+
+.imageWrapper {
+  margin-bottom: 2rem;
+  border-radius: 50%;
+  padding: 8px;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  box-shadow: 0 10px 25px rgba(188, 62, 226, 0.4);
+  animation: floating 6s ease-in-out infinite;
+}
+
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--background-start);
+  background-color: var(--background-start);
+}
+
+.greeting {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--text-secondary);
+}
+
+.nameTitle {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.05em;
+}
+
+.description {
+  font-size: 1.5rem;
+  max-width: 600px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.roles {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media (max-width: 768px) {
+  .nameTitle {
+    font-size: 2.5rem;
+  }
+  .description {
+    font-size: 1.25rem;
+  }
+  .imageWrapper {
+    width: 160px;
+    height: 160px;
+  }
+  .avatar {
+    width: 144px;
+    height: 144px;
+  }
+}

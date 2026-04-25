@@ -8,12 +8,12 @@
 
 ---
 
-### 👨‍💻 Sobre mim
+### 👨‍💻 About me
 
-・🎓 Estudante de **Engenharia de Software** no **Inteli** (Instituto de Tecnologia e Liderança). <br>
-・💻 Desenvolvedor **Full-Stack** com forte interesse em sistemas de baixo nível e experiência em arquitetura de software. <br>
-・⚙️ Atualmente focado em desenvolvimento de sistemas de baixo nível, e projetos web/mobile. <br>
-・🐧 Usuário apaixonado de sistemas **Linux**.
+・🎓 Student of **Software Engineering** at **Inteli** (Instituto de Tecnologia e Liderança). <br>
+・💻 **Full-Stack** Developer with a strong interest in low-level systems and software architecture experience. <br>
+・⚙️ Currently focused on low-level systems development, and web/mobile projects. <br>
+・🐧 Passionate **Linux** user.
 
 <p align="left">
   <a href="mailto:vitogiu1@outlook.com" target="_blank">
@@ -31,9 +31,10 @@
 
 ---
 
-### 🛠️ Tecnologias e Ferramentas
+### 🛠️ Technologies and Tools
 
 **Full-Stack:**
+
 <p align="left">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -48,7 +49,8 @@
   <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
 </p>
 
-**Low-Level & Ambiente:**
+**Low-Level & Environment:**
+
 <p align="left">
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
@@ -60,7 +62,7 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
-### ⭐ Estatísticas do GitHub
+### ⭐ Github Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=vitogiu1&show_icons=true&theme=tokyonight&line_height=27&hide_border=true" alt="Estatísticas do Vito" height="190" />
