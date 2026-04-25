@@ -1,18 +1,12 @@
 .wrapper {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.75rem;
-  z-index: 1000;
 }
 
 .placeholder {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
   width: 48px;
   height: 48px;
 }
@@ -46,17 +40,44 @@
 }
 
 .menu {
+  position: absolute;
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
   background: var(--glass-bg);
   border: 1px solid var(--glass-border);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  padding: 0.75rem 0.5rem;
   border-radius: 2rem;
   box-shadow: var(--card-shadow);
+  z-index: 10;
+}
+
+.menu_down {
+  top: 100%;
+  margin-top: 0.5rem;
+  flex-direction: column;
+  padding: 0.75rem 0.5rem;
+  gap: 0.5rem;
+  animation: slideDown 0.2s ease-out forwards;
+}
+
+.menu_up {
+  bottom: 100%;
+  margin-bottom: 0.5rem;
+  flex-direction: column;
+  padding: 0.75rem 0.5rem;
+  gap: 0.5rem;
   animation: slideUp 0.2s ease-out forwards;
+}
+
+.menu_left {
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 0.5rem;
+  flex-direction: row;
+  padding: 0.5rem 0.75rem;
+  gap: 0.5rem;
+  animation: slideLeft 0.2s ease-out forwards;
 }
 
 .colorButton {
@@ -78,6 +99,17 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 @keyframes slideUp {
   from {
     opacity: 0;
@@ -89,11 +121,18 @@
   }
 }
 
-@media (max-width: 768px) {
-  .wrapper {
-    bottom: 1.5rem;
-    right: 1.5rem;
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translate(10px, -50%) scale(0.95);
   }
+  to {
+    opacity: 1;
+    transform: translate(0, -50%) scale(1);
+  }
+}
+
+@media (max-width: 768px) {
   .toggleButton {
     width: 44px;
     height: 44px;
@@ -101,10 +140,6 @@
 }
 
 @media (max-width: 480px) {
-  .wrapper {
-    bottom: 1rem;
-    right: 1rem;
-  }
   .toggleButton {
     width: 40px;
     height: 40px;

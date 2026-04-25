@@ -18,7 +18,7 @@ import {
   FaMicrochip,
   FaDatabase,
 } from "react-icons/fa";
-import { SiTypescript, SiC } from "react-icons/si";
+import { SiTypescript, SiC, SiNextdotjs } from "react-icons/si";
 import {
   DiJava,
   DiVisualstudio,
@@ -52,7 +52,9 @@ export default function SkillsSection() {
     { name: "Angular", icon: <FaAngular /> },
     { name: "Node.JS", icon: <FaNodeJs /> },
     { name: "React", icon: <FaReact /> },
+    { name: "Next.JS", icon: <SiNextdotjs /> },
     { name: "Docker", icon: <FaDocker /> },
+    { name: "Spring Boot", icon: <DiJava /> },
   ];
 
   const tools = [

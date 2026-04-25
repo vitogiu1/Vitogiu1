@@ -2,9 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { ThemeProvider } from 'next-themes'
-import ThemeUpdater from '@/components/ThemeUpdater/ThemeUpdater'
-import LanguageSwitcher from '@/components/LanguageSwitcher/LanguageSwitcher'
-import ColorSwitcher from '@/components/ColorSwitcher/ColorSwitcher'
+import SettingsManager from '@/components/SettingsManager/SettingsManager'
 import { LanguageProvider } from '@/context/LanguageContext'
 import { ColorProvider } from '@/context/ColorContext'
 
@@ -26,9 +24,7 @@ export default function RootLayout({
         <ThemeProvider attribute="data-theme" defaultTheme="system" enableSystem>
           <LanguageProvider>
             <ColorProvider>
-              <LanguageSwitcher />
-              <ThemeUpdater />
-              <ColorSwitcher />
+              <SettingsManager />
               <div className="layout-content">
                 {children}
               </div>

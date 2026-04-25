@@ -13,7 +13,7 @@
     "sectionTitle": "Sobre Mim",
     "journeyTitle": "Minha Jornada",
     "journey1": "Olá! Sou o Vito Giuliano, Desenvolvedor Full Stack e estudante de Engenharia de Software. Minha jornada na programação começou em 2020, movida por uma curiosidade insaciável de entender o funcionamento interno da tecnologia. Desde então, cultivei ampla experiência construindo aplicações web robustas, projetando esquemas de banco de dados eficientes e arquitetando APIs escaláveis. Minha especialidade abrange todo o ecossistema Full-Stack, utilizando frameworks modernos como React e Angular junto com back-ends poderosos como Node.js e Java Spring para entregar soluções digitais impactantes.",
-    "journey2": "Além do desenvolvimento de alto nível, sou um dedicado entusiasta de sistemas de baixo nível (Low-Level). Eu prospero nas complexidades do desenvolvimento de sistemas operacionais, arquitetura x86, arquitetura RISC-V e gerenciamento manual de memória. Atualmente estou arquitetando o ArzaOS, meu próprio kernel em modo longo de 64 bits. Meu compromisso com os internos do sistema é ainda mais demonstrado pelo meu trabalho no ArzaOS, onde construí todo o kernel do zero, incluindo drivers para porta serial e conexões com múltiplos kernels.",
+    "journey2": "Além do desenvolvimento de alto nível, sou um dedicado entusiasta de sistemas de baixo nível (Low-Level). Eu prospero nas complexidades do desenvolvimento de sistemas operacionais, arquitetura x86, arquitetura RISC-V e gerenciamento manual de memória. Atualmente estou arquitetando meu próprio kernel em modo longo de 64 bits. Meu conhecimento sobre sistemas de baixo nível é demonstrado pelo meu trabalho no ArzaOS, onde construí todo o kernel do zero, incluindo drivers para porta serial e conexões com múltiplos kernels.",
     "journey3": "Atualmente estudante de Engenharia de Software no Inteli, eu crio a ponte entre o design de aplicações de alto nível e a performance de sistemas de baixo nível. Seja otimizando algoritmos para complexidade computacional ou gerenciando interrupções de hardware, meu objetivo é construir sistemas que sejam tão eficientes quanto inovadores.",
     "educationTitle": "Educação e Foco",
     "educationList": [
@@ -38,14 +38,27 @@
         "desc": "Estudo aprofundado de algoritmos de ordenação, complexidade computacional (Big O) e estruturas de memória otimizadas."
       }
     ],
-    "ideTitle": "Quem é o Vito?",
+    "ideTitle": "O que eu faço?",
     "ideMock": {
       "developer": "Vito Giuliano",
       "status": "Estudante de Engenharia de Software @ Inteli",
-      "roles": ["Engenheiro Full-Stack", "Entusiasta de Baixo Nível"],
+      "roles": [
+        "Engenheiro Full-Stack",
+        "Entusiasta de programação de Baixo Nível"
+      ],
       "core_stack": {
         "low_level": ["C", "C++", "Rust", "Assembly"],
-        "full_stack": ["React", "Angular", "Node.js", "Java Spring"]
+        "full_stack": [
+          "React",
+          "Angular",
+          "Node.js",
+          "Java Spring",
+          "Python",
+          "SQL",
+          "REST APIs",
+          "Docker",
+          "Git"
+        ]
       },
       "os_internals": {
         "current_project": "ArzaOS (x86 para Modo Longo de 64-bit)",

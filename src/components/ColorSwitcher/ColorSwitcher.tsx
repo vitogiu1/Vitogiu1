@@ -13,7 +13,7 @@ const COLORS: { name: ColorPreset; hex: string }[] = [
   { name: "orange", hex: "#f97316" },
 ];
 
-export default function ColorSwitcher() {
+export default function ColorSwitcher({ direction = "down" }: { direction?: "down" | "up" | "left" }) {
   const { color, setColor } = useColor();
   const [mounted, setMounted] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -44,7 +44,7 @@ export default function ColorSwitcher() {
   return (
     <div className={styles.wrapper} ref={menuRef}>
       {isOpen && (
-        <div className={styles.menu}>
+        <div className={`${styles.menu} ${styles[`menu_${direction}`]}`}>
           {COLORS.map((c) => (
             <button
               key={c.name}
